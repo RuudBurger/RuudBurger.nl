@@ -1,0 +1,59 @@
+body {
+	background: linear-gradient(to right top, #051937, #602e61, #bb4162, #f27b3f, #ebce12)  fixed no-repeat top center;
+	text-align: center;
+	color:#343434;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Helvetica Neue",Helvetica,Arial,Geneva,sans-serif;
+	padding: 10px 0 40px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	color: #fff;
+}
+	
+.navigation {
+	padding: 0 0 20px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+	.navigation > h1 {
+		font-size: 30px;
+		float: left;
+		padding: 15px 0 15px 35px;
+		margin: 0;
+	}
+
+	.network {
+		float: right;
+		padding: 20px 25px 0;
+		font-size: 18px;
+	}
+	
+		.network a, .network span {
+			padding: 10px 10px 10px 50px;
+			background: no-repeat left;
+			margin: 0 0 0 15px;
+		}
+	
+		.network .twitter { background-image: url('./icon.twitter.png'); }
+		.network .linkedin { background-image: url('./icon.linkedin.png'); }
+		.network .contact { background-image: url('./icon.email.png'); }
+		.network .phone { background-image: url('./icon.phone.png'); }
+	
+
